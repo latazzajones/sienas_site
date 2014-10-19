@@ -1,8 +1,0 @@
-<%= render 'shared/header' %>
-<%= render 'shared/nav' %>
-
-<% @images.each do |image| %>
-	<div class='image_tile'>
-	<%= image_tag "photographs/#{image.split('/').last}" %>
-	</div>
-<% end %>
