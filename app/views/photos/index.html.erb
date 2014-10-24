@@ -1,3 +1,5 @@
 <h1>Listing photos</h1>
 
-<%= @albums %>
+<% @photosets[0].each do |image| %>
+<%= image_tag image %>
+<% end %>
